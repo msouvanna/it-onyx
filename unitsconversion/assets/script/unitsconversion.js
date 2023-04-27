@@ -66,7 +66,7 @@ function calculate(){
 }
 
 async function CalculateResult(fromValuefp, fromUnit, toUnit) {
-        
+        // ;P
     // URL and method used with AJAX Call
     var myURL = "https://brucebauer.info/assets/ITEC3650/unitsconversion.php";
     myURL = myURL + "?FromValue=" + encodeURIComponent(fromValuefp) + "&FromUnit=" + encodeURIComponent(fromUnit) + "&ToUnit=" + encodeURIComponent(toUnit);

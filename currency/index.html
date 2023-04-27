@@ -18,18 +18,22 @@
         <div class="formcontainer">
             <h2>Stock Ticker Details</h2>
             <label for="baseCurr" class="formlabel"><b>Base Currency:</b></label>
-            <select id="baseCurr" name="baseCurr">
+            <select id="baseCurr" name="baseCurr"
+            data-rule-required="true" data-msg-required="Value is Required">
+                <option value="">Select a Currency</option>
                 <option value="USD">US Dollar</option>
                 <option value="EUR">Euro Dollar</option>
                 <option value="KRW">Korean Won</option>
-                <option value="AUD">Australian Dollar</option>
+                <option value="AUD">Australian Dollar</option>  
                 <option value="THB">Thai Baht</option>
             </select>
             <label for="baseCurr" class="error" id="baseerror"></label>
             <br>
 
             <label for="toCurr" class="formlabel"><b>Convert To Currency:</b></label>
-            <select id="toCurr" name="toCurr">
+            <select id="toCurr" name="toCurr"
+            data-rule-required="true" data-msg-required="Value is Required">
+                <option value="">Select a Currency</option>
                 <option value="USD">US Dollar</option>
                 <option value="EUR">Euro Dollar</option>
                 <option value="KRW">Korean Won</option>
@@ -56,7 +60,8 @@
             <hr>
         </div>
     </form>
-<canvas id="myChart" style="width:100%;max-width:700px; background-color: antiquewhite;"></canvas>
+<canvas id="myChart" style="width:100%;max-width:700px; background-color: cornsilk;"></canvas>
 
+<script src="assets/script/script.js"></script>
 </body>
 </html> 
